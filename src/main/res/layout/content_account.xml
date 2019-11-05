@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@+id/register"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/textViewName"/>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextName"
+        android:layout_toRightOf="@+id/editTextName"
+        android:layout_alignParentLeft="true"
+        android:text="@string/name"
+        />
+
+    <TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextGender"
+        android:layout_toRightOf="@+id/editTextGender"
+        android:layout_alignParentLeft="true"
+        android:text="@string/gender"
+        />
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextAge"
+        android:layout_toRightOf="@+id/editTextAge"
+        android:layout_alignParentLeft="true"
+        android:text="@string/age"
+        />
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextEmail"
+        android:layout_toLeftOf="@+id/editTextEmail"
+        android:layout_alignParentLeft="true"
+        android:text="Email"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextName"
+        android:layout_below="@+id/editTextName"
+        android:ems="10"
+        android:inputType="text"
+
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextName"
+        android:layout_below="@+id/editTextGender"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextName"
+        android:layout_below="@+id/editTextAge"
+        android:ems="10"
+        android:inputType="text"
+        />
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        >
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="@dimen/activity_vertical_margin"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:text="@string/delete"
+            />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:padding="@dimen/activity_vertical_margin"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="run"
+            android:text="@string/save"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
