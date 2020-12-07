@@ -6,4 +6,4 @@ App Design
 ![Homepage Design](https://github.com/terryva/androidMediApp/blob/master/Images/Medicare_HomePage.PNG)
 
 Built Application
-<img src="https://github.com/terryva/androidMediApp/blob/master/Images/Screenshots/Screenshot_2016-05-12-23-44-09.png" height="629" width="384"><img src="https://github.com/terryva/androidMediApp/blob/master/Images/Screenshots/Screenshot_2016-05-12-23-44-24.png" height="629" width="384"> 
+<img src="https://github.com/terryva/androidMediApp/blob/master/Images/Screenshots/Screenshot_2016-05-12-23-44-09.png" height="629" width="384">
